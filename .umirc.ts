@@ -1,3 +1,5 @@
 export default {
-  npmClient: 'pnpm'
+  npmClient: "pnpm",
+  tailwindcss: {},
+  plugins: ["@umijs/plugins/dist/tailwindcss"],
 };
